@@ -7,7 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Hoteles</title>
+
+    <link rel="stylesheet" href="css/main.css">    
+
+    <title>Gia de Hoteles</title>
   </head>
   <body>
     
@@ -20,7 +23,6 @@
         "col align-self-star">
           <p>
             <h1>Alojamiento Urbano</h1>
-            
           Alojamiento en zona urbana, con todas las posibilidades y facilidades que ofrece estár cerca al centro de las ciudades.</p>
         </div>
         <div class="col align-self-center">
@@ -34,44 +36,96 @@
             Solo dormida y comida con las comodidades basicas.</p>  
         </div>   
       </div>
-      <div class="row">
-        <div class="col m-sm-4">
-          <h3>Hotel Centro Plaza</h3>
-          <p>Ubicado en el centro de la ciudad con todas las comodidades</p>
-          <button>info</button>
+      <div class="d-flex flex-wrap flex-row-reverse">
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Centro Plaza</h3>
+            <p>Ubicado en el centro de la ciudad con todas las comodidades</p>
+          </div>
+          <div>
+            <button class="btn">info</button>
+          </div>
         </div>
-        <div class="col m-sm-4">
-          <h3>Hotel Parque</h3>
-          <p>Cinco estrellas *****</p>
-          <button>Info</button>
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Parque</h3>
+            <p>Cinco estrellas *****</p>
+          </div>
+          <div>
+            <button class="btn">Info</button>
+          </div>
         </div>
-        <div class="col m-sm-4">
-          <h3>Hotel gran central</h3>
-          <p>Todas las comodidades Wifi y agua caliente</p>
-          <button>info</button>
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel gran central</h3>
+            <p>Todas las comodidades Wifi y agua caliente</p>
+          </div>
+          <div>
+            <button class="btn">info</button>
+          </div>
         </div>
-        <div class="col m-sm-4">
-          <h3>Hotel sumapaz del bosque</h3>
-          <p>Ubicado en el municipio de Cocorná Todas las comodidades Wifi y agua caliente</p>
-          <button>info</button>
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel sumapaz del bosque</h3>
+            <p>Ubicado en el municipio de Cocorná Todas las comodidades Wifi y agua caliente</p>
+          </div>
+          <div>
+            <button class="btn">info</button>
+          </div>
         </div>
-        <div class="col m-sm-4">
-          <h3>Hotel jardin de belen de los andaquies</h3>
-          <p>Ubicado en el lindo municipio de los andaquies ...</p>
-          <button>info</button>
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel jardin de belen de los andaquies</h3>
+            <p>Ubicado en el lindo municipio de los andaquies ...</p>
+          </div>
+          <div>
+            <button class="btn">info</button>
+          </div>  
         </div>
-        <div class="col m-sm-4">
-          <h3>Hotel rio san cipriano sur</h3>
-          <p>Todas las comodidades en ambiente rural</p>
-          <button>info</button>
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel rio san cipriano sur</h3>
+            <p>Todas las comodidades en ambiente rural</p>
+          </div>
+          <div>
+            <button class="btn">info</button>
+          </div>
         </div>
-        <div class="col m-sm-4">
-          <h3>Hotel Tundo</h3>
-          <p>Alojamiento basico entre la selva y el mar, jumnto al rio Túndo en Bahia solano Chocó</p>
-          <button>info</button>
+        <div class="tarjeta-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Túndo</h3>
+            <p>Alojamiento basico entre la selva y el mar, jumnto al rio Túndo en Bahia solano Chocó</p>
+          </div>
+          <div>
+            <button class="btn">info</button>
+          </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="row">
+        <div class="col m-sm-3 d-flex flex-column align-items-center">
+          <a class="info" href="https://www.facebook.com/enespanol/">
+          Facebook</a>
+          <a class="info" href="https://www.instagram.com/?hl=es-la">Instagram</a>
+          <a class="info" href="https://co.pinterest.com/">Pinterest</a>
+        </div>
+        <div class="col m-sm-3">
+          <address>
+            Medellín, Antioquia, Colombia
+            +573015382077
+            contacto@guiasuigeneris.com 
+          </address>
+        </div>
+        <div class="col m-sm-3 d-flex flex-column align-items-end">
+          <a class="info" href="https://www.facebook.com/enespanol/">
+          Sugerencias</a>
+          <a class="info" href="https://www.instagram.com/?hl=es-la">Recomendados</a>
+          <a class="info" href="https://co.pinterest.com/">Condiciones sobre las reservas</a>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

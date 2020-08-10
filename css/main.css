@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: cadetblue;
+    color: white;
+}
+
+footer {
+    background-color: cadetblue;
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.info {
+    color: white;
+}
+
+.tarjeta-hotel {
+    flex: 1 100px;
+    padding: 2px 5px 2px 5px;
+    background-color: wheat;
+}
